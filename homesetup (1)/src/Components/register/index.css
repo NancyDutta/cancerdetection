@@ -1,0 +1,157 @@
+body {
+    background: #f7f7f7;
+    font-family: Arial, sans-serif;
+  }
+  
+  .signin-container {
+    width: 350px;
+    padding: 30px;
+    background: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 50px auto;
+    border-radius: 10px;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .signin-container:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .sign-in-heading {
+    margin-top: 0.5px;
+    color: #333;
+  }
+  
+  .signin-container h2 {
+    margin-bottom: 20px;
+  }
+  
+  .input-group {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .input-group:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  }
+  
+  .input-group .social-icons {
+    background: #1a76d1;
+    padding: 10px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .input-group input {
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 10px;
+    border-radius: 0;
+  }
+  
+  .checkbox-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .checkbox-group input[type="checkbox"] {
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+    accent-color: #1a76d1;
+  }
+  
+  .checkbox-group label {
+    color: #1a76d1;
+  }
+  
+  .login-btns {
+    background: #1a76d1;
+    color: #fff;
+    margin-top: 23px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .login-btns:hover {
+    background-color: #0b4f90;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .extra-links {
+    margin-top: 20px;
+  }
+  
+  .extra-links a {
+    display: block;
+    margin-bottom: 10px;
+    color: #1a76d1;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .extra-links .password-text {
+    text-decoration: underline;
+  }
+  
+  .extra-links a span {
+    font-weight: bold;
+  }
+  
+  .extra-links .account-text {
+    color: #000;
+  }
+  
+  .extra-links .account-text .inner-extra-links {
+    color: #1a76d1;
+  }
+  
+  .extra-links .account-text .inner-extra-links:hover {
+    color: #0b4f90;
+  }
+  
+  .extra-links a span:hover {
+    color: #0b4f90;
+  }
+  
+  .extra-links .password-text:hover {
+    color: #000;
+  }
+  
+  .extra-links .account-text {
+    margin-bottom: 20px;
+  }
+  
+  .password-text {
+    margin-top: 20px;
+  }
+  .error_sign_up{
+    color: red;
+    font-size: 12px;
+  
+
+  }
+  

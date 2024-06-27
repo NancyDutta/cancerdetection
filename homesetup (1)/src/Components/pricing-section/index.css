@@ -1,0 +1,99 @@
+/* ServiceCards.css */
+body{
+  overflow-x: hidden;
+}
+.service-container {
+  width: 97%;
+  margin: 23px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  
+}
+
+.service-container h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.service-container .description {
+  font-size: 20px;
+  margin-bottom: 30px;
+  color: #666;
+}
+
+.heartbeat-icon {
+  display: block;
+  margin: 20px auto; /* Center the image horizontally and add vertical margin */
+  padding: 10px;
+  width: 80px; /* Set the desired width */
+  height: 48px; /* Set the desired height */
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  width: 90%;
+}
+
+.card {
+  background-color: #fff;
+  color: black;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  width: 300px;
+  padding-left: 23px;
+  height: 400px;
+  /* text-align: center; */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.icon {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.card h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.price {
+  font-size: 18px;
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.card ul {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+}
+
+.card ul li {
+  margin-bottom: 5px;
+}
+
+/* .card ul li.disabled {
+  text-decoration: line-through;
+  color: #ccc;
+} */
+
+.card button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.card button:hover {
+  background-color: #0056b3;
+}

@@ -1,0 +1,152 @@
+.signin-container {
+  width: 360px;
+  padding: 40px;
+  background: #fff;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  border-radius: 10px;
+}
+
+.avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.sign-in-heading {
+  margin: 0;
+  font-size: 24px;
+  color: #333;
+}
+
+.signin-container h2 {
+  margin-bottom: 30px;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.input-group .social-icons {
+  height: 30px; /* Adjust icon size */
+  width: 30px; /* Adjust icon size */
+  background: #1a76d1;
+  padding: 10px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-group input {
+  border: none;
+  outline: none;
+  width: 100%;
+  padding: 12px; /* Adjust padding for input field */
+  
+}
+
+.checkbox-group {
+  display: flex;
+  align-items: center;
+  /* margin-bottom: 2px; */
+  margin-top: 23px;
+}
+
+.checkbox-group input[type="checkbox"] {
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
+  accent-color: #1a76d1;
+  position: relative;
+}
+
+.checkbox-group input[type="checkbox"]:checked::before {
+  content: '';
+  position: absolute;
+  width: 6px;
+  height: 12px;
+  border: solid #fff;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.checkbox-group label {
+  color: #1a76d1;
+}
+
+.login-btn {
+  background: #1a76d1;
+  color: #fff;
+  margin-top: 3px;
+  border: none;
+  padding: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  transition: background-color 0.3s ease;
+  font-size: 16px;
+}
+
+.login-btn:hover {
+  background-color: #0b4f90;
+}
+
+.extra-links {
+  margin-top: 20px;
+}
+
+.extra-links .account-text {
+  display: block;
+  margin-bottom: 10px;
+  color: #1a76d1;
+  text-decoration: none;
+}
+
+.extra-links .password-text {
+  text-decoration: underline;
+}
+
+.extra-links .account-text span {
+  font-weight: bold;
+}
+
+.extra-links .account-text {
+  color: #000;
+}
+
+.extra-links .account-text .inner-extra-links {
+  color: #1a76d1;
+}
+
+.extra-links .account-text .inner-extra-links:hover {
+  color: #000;
+}
+
+.extra-links .password-text:hover {
+  color: #000;
+}
+
+.extra-links .account-text {
+  margin-bottom: 20px;
+}
+
+.password-text {
+  margin-top: 20px;
+}
+.error_sign_up{
+  color: red;
+  font-size: 12px;
+
+
+}

@@ -1,0 +1,75 @@
+.health-services {
+  width: 97%; /* Ensure the component covers the full width */
+  margin: 23px;
+  text-align: center;
+  padding: 50px 0;
+  font-family: 'Arial', sans-serif;
+}
+
+h2 {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.heartbeat-icon {
+  display: block;
+  margin: 20px auto; /* Center the image horizontally and add vertical margin */
+  padding: 10px;
+  width: 80px; /* Set the desired width */
+  height: 48px; /* Set the desired height */
+}
+
+.intro-text {
+  color: #888;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.services {
+  display: flex;
+  justify-content: space-around; /* Adjusted for full width layout */
+  gap: 30px; /* Reduced gap to ensure even distribution */
+  padding: 0 20px; /* Added padding to prevent content from touching the edges */
+}
+
+.service {
+  width: 230px;
+  text-align: center;
+}
+
+.icon {
+  height: 80px; /* Increased height to better match the image */
+  width: 90px; /* Increased width to better match the image */
+  margin: 0 auto 20px; /* Adjusted margin for better spacing */
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.emergency-help {
+  background: url('https://www.creativefabrica.com/wp-content/uploads/2022/02/23/Anatomy-breath-lungs-icon-Graphics-25857893-1.jpg') no-repeat center center;
+  background-size: cover;
+}
+
+.enriched-pharmacy {
+  background: url('https://www.shutterstock.com/image-vector/symptom-checker-icon-260nw-689116546.jpg') no-repeat center center;
+  background-size: cover;
+}
+
+.medical-treatment {
+  background: url('https://t3.ftcdn.net/jpg/03/04/14/02/360_F_304140266_RNwaN9DAmIoflEpawKHhTz2yZJx32ZSK.jpg') no-repeat center center;
+  background-size: cover;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.service p {
+  font-size: 14px;
+  color: #888;
+}
